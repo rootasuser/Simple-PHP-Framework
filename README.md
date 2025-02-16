@@ -5,18 +5,12 @@ Simple PHP Framework is a minimalist, lightweight PHP framework designed for dev
 Features
 
 🚀 Lightweight & Fast - Minimal overhead, ideal for quick development.
-
 🔄 Simple Routing System - Easily define GET and POST routes.
-
 📂 MVC Structure Ready - Easily expandable with controllers and views.
-
 🌐 Clean URLs - Uses .htaccess for pretty URLs.
 
 Installation
-
 Clone the repository
-
-go
 
 Install dependencies (for autoloading classes via Composer)
 
@@ -46,10 +40,8 @@ SimplePHPFramework/
 │── .htaccess            # Rewrite rules for clean URLs
 │── composer.json        # Autoload classes
 
-Usage
 
 Define Routes
-
 Modify public/index.php to define routes:
 
 $app->get('/', function () {
@@ -61,7 +53,6 @@ $app->get('/about', function () {
 });
 
 Enable Clean URLs
-
 Ensure the .htaccess file in public/ allows clean URLs:
 
 RewriteEngine On
@@ -80,7 +71,6 @@ License
 MIT License - Use and modify freely!
 
 Contributing
-
 Pull requests are welcome! For major changes, please open an issue first.
 
 Made with ❤️ by Windel Navales
